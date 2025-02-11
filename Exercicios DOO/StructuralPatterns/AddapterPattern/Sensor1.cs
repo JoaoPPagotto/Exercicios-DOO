@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exercicios_DOO.StructuralPatterns.AddapterPattern
+{
+    public class Sensor1
+    {
+        public double GetTemperatureInCelsius() => 25.0;
+    }
+}
